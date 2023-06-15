@@ -52,3 +52,23 @@ public:
 		}
 	}
 };
+
+int main() {
+	Program s;
+
+	while (true) {
+		cout << endl;
+		cout << "\n***Stack Menu***\n";
+		cout << "1. Push\n";
+		cout << "2. Pop\n";
+		cout << "3. Display\n";
+		cout << "4. Exit\n";
+		cout << "\nEnter your chice: ";
+		string input;
+		getline(cin, input);
+		char ch = (input.empty() ? '0' : input[0]);
+		switch (ch) {
+
+		}
+	}
+}
